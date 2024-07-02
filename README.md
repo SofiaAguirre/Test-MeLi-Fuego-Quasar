@@ -22,7 +22,7 @@ satélite debido al campo de asteroides frente a la nave.
 
 #### POST /api/topsecret
 
-https://meli-challenge-sofia.herokuapp.com/api/topsecret
+https://fuego-quasar-meli-428201.ue.r.appspot.com/api/topsecret
 
 Servicio que recibe y procesa la información de los distintos Satélites para retornar (en caso de ser posible) 
 la fuente y contenido del mensaje de auxilio.
@@ -85,14 +85,14 @@ la fuente y contenido del mensaje de auxilio.
 
 ```
 {
-    "timestamp": "2021-02-11T23:20:59.271+00:00",
-    "message": "ERROR: All required satellites are not present on request",
+    "timestamp": "2024-07-02T01:39:25.184+00:00",
+    "message": "ERROR: Missing information. Quantity of satellites (2) is different than the required.",
     "details": "uri=/api/topsecret"
 }
 ```
 #### POST /api/topsecret_split/{satellite_name}
 
-https://meli-challenge-sofia.herokuapp.com/api/topsecret_split/{satellite_name}
+https://fuego-quasar-meli-428201.ue.r.appspot.com/api/topsecret_split/{satellite_name}
 
 Servicio que recibe y almacena información de un satélite determinado
 
@@ -112,21 +112,21 @@ Servicio que recibe y almacena información de un satélite determinado
 ```
 ##### Response Code
 
-- 200
+- 204
 
 - 404
 
 ```
 {
-    "timestamp": "2021-02-11T23:20:59.271+00:00",
-    "message": "ERROR: A message from Satellite already exists on the loop.",
-    "details": "uri=/api/topsecret_split/{satellite_name}"
+    "timestamp": "2024-07-02T01:41:56.800+00:00",
+    "message": "ERROR: A message from Satellite SATO already exists in the loop.",
+    "details": "uri=/api/topsecret_split/sato"
 }
 ```
 
 #### GET /api/topsecret_split
 
-https://meli-challenge-sofia.herokuapp.com/api/topsecret_split
+https://fuego-quasar-meli-428201.ue.r.appspot.com/api/topsecret_split
 
 Servicio que consulta la información almacenada y (de ser posible) devuelve la fuente y contenido del mensaje de auxilio
 
