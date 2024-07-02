@@ -3,7 +3,7 @@
 
 ## Challenge técnico para MercadoLibre
 
-🌸 [Enunciado](https://drive.google.com/file/d/1N6oZX8jjiutOrIxnnLNZzdWAfxQ0Yq1R/view?usp=sharing)
+🌸 [Enunciado](https://drive.google.com/file/d/1mfLGgohfMnbtQBhfWxaDFc-9boHX6T0I/view?usp=sharing)
 
 🌸 [Documentacion en Swagger](https://fuego-quasar-meli-428201.ue.r.appspot.com/swagger-ui.html)
 
